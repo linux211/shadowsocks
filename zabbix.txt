@@ -1,0 +1,16 @@
+烽烟
+开：
+curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc": "2.0","method":"action.update","params":{"actionid":"3","status": "0"},"auth":"14a88a3bb6898c7f05040ef4155b28d6","id": 0}' http://zabbix.app1104219875.twsapp.com/zabbix/api_jsonrpc.php
+关：
+curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc": "2.0","method":"action.update","params":{"actionid":"3","status": "1"},"auth":"14a88a3bb6898c7f05040ef4155b28d6","id": 0}' http://zabbix.app1104219875.twsapp.com/zabbix/api_jsonrpc.php
+
+阿里云
+开：
+curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc": "2.0","method":"action.update","params":{"actionid":"7","status": "0"},"auth":"516a1ed75a7abbc9b35cf67f4aa86130","id": 0}' http://101.198.132.46/zabbix/api_jsonrpc.php
+curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc": "2.0","method":"action.update","params":{"actionid":"8","status": "0"},"auth":"516a1ed75a7abbc9b35cf67f4aa86130","id": 0}' http://101.198.132.46/zabbix/api_jsonrpc.php
+关：
+curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc": "2.0","method":"action.update","params":{"actionid":"7","status": "1"},"auth":"516a1ed75a7abbc9b35cf67f4aa86130","id": 0}' http://101.198.132.46/zabbix/api_jsonrpc.php
+curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc": "2.0","method":"action.update","params":{"actionid":"8","status": "1"},"auth":"516a1ed75a7abbc9b35cf67f4aa86130","id": 0}' http://101.198.132.46/zabbix/api_jsonrpc.php
+
+
+
