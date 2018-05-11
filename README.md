@@ -24,8 +24,8 @@
 ```
 ## 服务端具体步骤
 ```
-1.在任意路径，下载一键安装脚本shadowsocks-libev.sh
-2.解压shadowsocks-libev.zip压缩包后，会有一个shadowsocks-libev.sh的文件，赋予文件脚本执行权限，chmod a+x shadowsocks-libev.sh
+1.在任意路径，下载一键安装脚本
+2.从github文件后，会有一个shadowsocks-libev.sh的文件，赋予文件脚本执行权限，chmod a+x shadowsocks-libev.sh
 3.执行脚本，./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
 安装过程中后，会有以下提示
 Congratulations, shadowsocks-libev install completed!
